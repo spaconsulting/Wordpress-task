@@ -33,6 +33,8 @@ Fakturaens udseende er ikke vigtigt
 Generering af en faktura i PDF format kan ske ved brug af FPDF http://www.fpdf.org/
 
 # Installation
+Som det første skal dette repo forkes, så du kan lave dine egne ændringer.
+
 For at påbegynde opgaven skal wordpress installeres. Dette gøres igennem docker. Hvis du aldrig har brugt docker før er det intet problem.
 
 - Installer docker (se under for mere hjælp)
@@ -84,4 +86,3 @@ Det er en god idé at lave nogle "falske" brugere og produkter på din side, så
 Dette gør man ved at gå ind i [wordpress kontrolpanelet](http://localhost:8080/wp-admin/). Derefter ind under Orders i WooCommerce.
 
 Herinde kan man så oprette orders. Man sætter "Customer" til den bruger der skal have produktet. Og tilføjer produktet via "Add item(s)". Og sætter "Status" til "Completed".
-
